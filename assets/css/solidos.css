@@ -1,0 +1,117 @@
+
+body {
+    background: linear-gradient(135deg, #e24ecc, #b137e5, #7b0dcf);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+
+header h1 {
+    text-align: center;
+    padding: 20px 0;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar {
+    border-bottom: 2px solid #d0d9e8;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #1f3c88;
+}
+
+.nav-link {
+    color: #1f3c88;
+}
+
+.dropdown-menu {
+  background: #2a0033;
+  border: 1px solid #00caff;
+  animation: fadeIn 0.4s ease;
+}
+.dropdown-item {
+  color: #cdefff;
+  transition: 0.3s;
+}
+
+
+
+
+
+
+
+main h2 {
+    text-align: center;
+    margin: 15px auto;
+    font-size: 20px;
+    width: 85%;
+    color: #ffffff;
+}
+
+
+.result-box {
+    width: 90%;
+    max-width: 450px;
+    margin: 25px auto;
+    background: #f9fbff;
+    border: 1px solid #cdd8eb;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+
+
+.result-box label {
+    display: block;
+    margin-top: 12px;
+    font-size: 15px;
+    color: #1d3a78;
+}
+
+
+.result-box input {
+    width: 100%;
+    padding: 6px;
+    margin-top: 5px;
+    border: 1px solid #bcc9df;
+    border-radius: 5px;
+    
+}
+
+.result-box input:focus {
+    border-color: #711f88;
+}
+
+
+.calcular {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background: #551f88;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.calcular:hover {
+    background: #7e259e;
+}
+
+
+#resultado {
+    text-align: center;
+    margin-top: 17px;
+    background: #e8eef8;
+    padding: 8px;
+    border-radius: 6px;
+    font-size: 17px;
+    color: #7d2ab7;
+    animation-direction: alternate;
+
+}
